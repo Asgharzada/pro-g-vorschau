@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pro G — LDPE- und HDPE-Säcke direkt vom Hersteller</title>
+<meta name="description" content="Pro G ist Direktimporteur für LDPE- und HDPE-Säcke aus 80–100 % Recyclingmaterial. Großhandelspreise für Reinigungsunternehmen, Gesundheitswesen und Industrie.">
+<style>
+:root{
+  --navy:#16294a; --navy-700:#1e365f; --navy-900:#0f1d36;
+  --green:#7dbb42; --green-700:#69a334;
+  --ink:#1b2431; --muted:#5c687a; --line:#e4e8ee;
+  --bg:#ffffff; --soft:#f5f7fa;
+  --radius:14px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --shadow:0 1px 2px rgba(16,32,58,.06),0 12px 32px rgba(16,32,58,.07);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);
+     line-height:1.65;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1140px,100% - 2.5rem);margin-inline:auto}
+
+/* ---------- Header ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.site-header .wrap{display:flex;align-items:center;gap:1.5rem;height:78px}
+.logo{flex:0 0 auto;width:150px}
+.nav{margin-left:auto;display:flex;align-items:center;gap:2rem}
+.nav a{text-decoration:none;font-weight:600;font-size:.95rem;color:var(--navy);
+  padding:.4rem 0;border-bottom:2px solid transparent;transition:border-color .18s,color .18s}
+.nav a:hover{border-bottom-color:var(--green)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  font-weight:700;font-size:.95rem;text-decoration:none;border:0;cursor:pointer;
+  padding:.85rem 1.6rem;border-radius:9px;transition:transform .15s,box-shadow .18s,background .18s}
+.btn-primary{background:var(--green);color:#fff;box-shadow:0 6px 18px rgba(125,187,66,.32)}
+.btn-primary:hover{background:var(--green-700);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--navy);border:1.5px solid #cdd5e0}
+.btn-ghost:hover{border-color:var(--navy)}
+.btn-lg{padding:1.05rem 2rem;font-size:1.02rem}
+.nav-cta{display:none}
+@media(min-width:900px){.nav-cta{display:inline-flex}}
+.burger{margin-left:auto;display:flex;flex-direction:column;gap:5px;background:none;border:0;
+  padding:.5rem;cursor:pointer}
+.burger span{width:24px;height:2px;background:var(--navy);border-radius:2px}
+@media(min-width:900px){.burger{display:none}}
+@media(max-width:899px){
+  .nav{position:fixed;inset:78px 0 auto;background:#fff;flex-direction:column;align-items:stretch;
+    gap:0;padding:.5rem 1.25rem 1.5rem;border-bottom:1px solid var(--line);
+    box-shadow:var(--shadow);display:none}
+  .nav.open{display:flex}
+  .nav a{padding:.9rem 0;border-bottom:1px solid var(--line)}
+}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;
+  background:linear-gradient(155deg,var(--navy-900) 0%,var(--navy) 55%,var(--navy-700) 100%);
+  color:#fff;padding:5.5rem 0 5rem}
+.hero::after{content:"";position:absolute;right:-14%;top:-38%;width:62%;aspect-ratio:1;
+  background:radial-gradient(circle,rgba(125,187,66,.30),transparent 62%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1;display:grid;gap:3rem;align-items:center}
+@media(min-width:980px){.hero .wrap{grid-template-columns:1.08fr .92fr}}
+.eyebrow{display:inline-flex;align-items:center;gap:.55rem;font-size:.8rem;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--green);
+  background:rgba(125,187,66,.13);border:1px solid rgba(125,187,66,.34);
+  padding:.45rem 1rem;border-radius:99px;margin-bottom:1.4rem}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.35rem);line-height:1.13;margin:0 0 1.25rem;
+  letter-spacing:-.02em;font-weight:800}
+.hero h1 em{font-style:normal;color:var(--green)}
+.hero p{font-size:1.13rem;color:#c9d4e4;margin:0 0 2.2rem;max-width:56ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.9rem}
+.hero-card{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);
+  border-radius:18px;padding:2rem;backdrop-filter:blur(6px)}
+.hero-card h2{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--green);margin:0 0 1.4rem;font-weight:700}
+.usp{display:flex;gap:.95rem;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.usp:last-child{border-bottom:0;padding-bottom:0}
+.usp svg{flex:0 0 22px;width:22px;height:22px;margin-top:.25rem}
+.usp b{display:block;font-size:1rem;margin-bottom:.15rem}
+.usp span{font-size:.92rem;color:#b7c3d6;line-height:1.5}
+
+/* ---------- Sections ---------- */
+section{padding:5rem 0}
+.section-head{max-width:62ch;margin-bottom:3rem}
+.kicker{font-size:.8rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--green-700);margin:0 0 .8rem}
+h2.title{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.2;margin:0 0 1rem;
+  letter-spacing:-.015em;color:var(--navy);font-weight:800}
+.section-head p{font-size:1.06rem;color:var(--muted);margin:0}
+
+/* ---------- Produkte ---------- */
+#produkte{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cards{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(255px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:2rem 1.75rem;display:flex;flex-direction:column;
+  transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cfd8e4}
+.card-icon{width:52px;height:52px;border-radius:12px;background:rgba(125,187,66,.12);
+  display:grid;place-items:center;margin-bottom:1.35rem}
+.card h3{font-size:1.2rem;margin:0 0 .6rem;color:var(--navy);font-weight:750}
+.card p{margin:0 0 1.35rem;color:var(--muted);font-size:.97rem;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:.45rem}
+.tag{font-size:.78rem;font-weight:600;color:var(--navy-700);background:#eef2f7;
+  border:1px solid #dde4ed;border-radius:6px;padding:.3rem .65rem}
+
+/* ---------- Formular ---------- */
+.form-grid{display:grid;gap:3.5rem;align-items:start}
+@media(min-width:980px){.form-grid{grid-template-columns:.85fr 1.15fr}}
+.form-aside{background:var(--navy);color:#fff;border-radius:18px;padding:2.5rem 2.25rem}
+.form-aside .kicker{color:var(--green)}
+.form-aside h2{font-size:1.75rem;margin:0 0 1rem;line-height:1.22;font-weight:800}
+.form-aside > p{color:#c2cee0;margin:0 0 1.75rem;font-size:1rem}
+.contact-line{display:flex;gap:.8rem;align-items:center;padding:.7rem 0;font-size:.97rem;color:#dde5f0}
+.contact-line svg{flex:0 0 18px;width:18px;height:18px}
+form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:2.25rem;
+  box-shadow:var(--shadow)}
+.row{display:grid;gap:1.15rem;margin-bottom:1.15rem}
+@media(min-width:640px){.row.two{grid-template-columns:1fr 1fr}.row.three{grid-template-columns:1fr 1fr 1fr}}
+.field label{display:block;font-size:.87rem;font-weight:650;color:var(--navy);margin-bottom:.4rem}
+.field input,.field select,.field textarea{width:100%;font:inherit;font-size:.97rem;color:var(--ink);
+  padding:.8rem .9rem;border:1.5px solid #d7dee8;border-radius:9px;background:#fff;
+  transition:border-color .15s,box-shadow .15s}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:0;border-color:var(--green);
+  box-shadow:0 0 0 3px rgba(125,187,66,.16)}
+.consent{display:flex;gap:.7rem;align-items:flex-start;margin:1.4rem 0 1.6rem;
+  font-size:.88rem;color:var(--muted);line-height:1.55}
+.consent input{margin-top:.25rem;width:17px;height:17px;accent-color:var(--green);flex:0 0 auto}
+.consent a{color:var(--navy);font-weight:600}
+.hint{font-size:.82rem;color:var(--muted);margin:.9rem 0 0}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-900);color:#95a4bb;padding:3rem 0 2.25rem;font-size:.92rem}
+.foot-top{display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:space-between;
+  padding-bottom:1.75rem;border-bottom:1px solid rgba(255,255,255,.1)}
+.foot-links{display:flex;flex-wrap:wrap;gap:1.5rem}
+.foot-links a{text-decoration:none;color:#c3cede;font-weight:600}
+.foot-links a:hover{color:var(--green)}
+.foot-bottom{padding-top:1.5rem;display:flex;flex-wrap:wrap;gap:.5rem;justify-content:space-between}
+.draft{background:#fff6e5;border-bottom:1px solid #f0dcb4;color:#7a5a15;
+  font-size:.85rem;text-align:center;padding:.6rem 1rem}
+</style>
+</head>
+<body>
+
+<div class="draft">Vorschau / Entwurf — Inhalte und Bilder sind Platzhalter und werden gemeinsam final abgestimmt.</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Pro G Startseite">
+      <svg viewBox="0 0 340 120" role="img" aria-label="Pro G">
+        <path d="M7.5 69.7 A165 56 0 1 1 333.4 52.2 L325.5 55.5 A157 47 0 1 0 15.3 70.2 Z" fill="#16294a"/>
+        <path d="M332.5 50.3 A165 56 0 1 1 6.6 67.8 L14.5 64.5 A157 47 0 1 0 324.7 47.0 Z" fill="#7dbb42"/>
+        <text x="52" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="800"
+              font-style="italic" letter-spacing="-1" fill="#16294a">PRO</text>
+        <text x="238" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="800"
+              font-style="italic" fill="#7dbb42">G</text>
+        <rect x="54" y="90" width="180" height="4" rx="2" fill="#7dbb42"/>
+      </svg>
+    </a>
+    <button class="burger" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#produkte">Produkte</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#angebot">Kontakt</a>
+      <a href="#angebot" class="btn btn-primary nav-cta">Angebot anfordern</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Direktimporteur &amp; Großhandel</span>
+      <h1>LDPE- und HDPE-Säcke <em>direkt vom Hersteller</em></h1>
+      <p>Pro G beliefert Reinigungsunternehmen, Gesundheitswesen und Industrie mit
+         hochwertigen Abfall- und Verpackungssäcken aus 80–100 % Recyclingmaterial —
+         ohne Zwischenhandel, zu fairen Großhandelspreisen.</p>
+      <div class="hero-actions">
+        <a href="#angebot" class="btn btn-primary btn-lg">Angebot anfordern</a>
+        <a href="#produkte" class="btn btn-ghost btn-lg" style="color:#fff;border-color:rgba(255,255,255,.3)">Produkte ansehen</a>
+      </div>
+    </div>
+
+    <aside class="hero-card">
+      <h2>Warum Pro G</h2>
+      <div class="usp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>
+        <div><b>Direkt vom Hersteller</b><span>Kein Zwischenhandel — kalkulierbare Preise und verlässliche Verfügbarkeit.</span></div>
+      </div>
+      <div class="usp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 3"/></svg>
+        <div><b>80–100 % Rezyklat</b><span>Hoher Recyclinganteil ohne Abstriche bei Reißfestigkeit und Belastbarkeit.</span></div>
+      </div>
+      <div class="usp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+        <div><b>Individueller Druck</b><span>Bio-Beutel und Säcke mit Ihrem Logo, Ihrer Farbgebung, Ihrer Kennzeichnung.</span></div>
+      </div>
+      <div class="usp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="13" height="10" rx="1.5"/><path d="M16 11h3.2l1.8 3v4h-5"/><circle cx="7" cy="18.5" r="1.8"/><circle cx="17.5" cy="18.5" r="1.8"/></svg>
+        <div><b>Gewerbliche Mengen</b><span>Von der Palette bis zur Dauerbelieferung — abgestimmt auf Ihren Verbrauch.</span></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section id="ueber-uns">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Über uns</p>
+      <h2 class="title">Ihr Lieferant für Kunststoffverpackungen im B2B-Bereich</h2>
+      <p>Pro G ist Direktimporteur und Großhandelslieferant für LDPE- und HDPE-Säcke.
+         Wir beziehen unsere Produkte unmittelbar vom Hersteller und liefern ohne Zwischenhandel —
+         das bedeutet gleichbleibende Qualität, planbare Verfügbarkeit und Preise, die im
+         Großhandel überzeugen. Beliefert werden Reinigungsunternehmen, Einrichtungen des
+         Gesundheitswesens sowie Industrie- und Gewerbebetriebe.</p>
+    </div>
+  </div>
+</section>
+
+<section id="produkte">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Sortiment</p>
+      <h2 class="title">Unsere Produkte</h2>
+      <p>Abfallsäcke, Müllbeutel und Verpackungsfolien in gewerblichen Qualitäten —
+         auf Anfrage in individuellen Stärken, Maßen und Bedruckungen.</p>
+    </div>
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#69a334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l-1.2 4H7.2z"/><path d="M7.2 7h9.6l1.2 12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/></svg></div>
+        <h3>LDPE-Säcke</h3>
+        <p>Weich, dehnbar und besonders reißfest. Die richtige Wahl für schwere, feuchte
+           oder scharfkantige Abfälle im Dauereinsatz.</p>
+        <div class="tags"><span class="tag">reißfest</span><span class="tag">schwere Abfälle</span><span class="tag">80–100 % Rezyklat</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#69a334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14v3H5z"/><path d="M6 7h12v11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M10 11v5M14 11v5"/></svg></div>
+        <h3>HDPE-Säcke</h3>
+        <p>Dünner und materialsparend bei hoher Belastbarkeit — die wirtschaftliche
+           Lösung für leichte Abfälle und hohe Verbrauchsmengen.</p>
+        <div class="tags"><span class="tag">materialsparend</span><span class="tag">hohe Stückzahlen</span><span class="tag">Rollenware</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#69a334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c6-1 9-5 9-11-6-1-10 2-11 7"/><path d="M4 21c1-6 4-9 8-10"/></svg></div>
+        <h3>Bio-Beutel</h3>
+        <p>Kompostierbare Beutel für Betriebe, die auf nachhaltige Entsorgung setzen —
+           auf Wunsch mit individuellem Design.</p>
+        <div class="tags"><span class="tag">kompostierbar</span><span class="tag">nachhaltig</span><span class="tag">individuell</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#69a334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V4h10v4"/><rect x="4" y="8" width="16" height="7" rx="1.5"/><path d="M7 15h10v5H7z"/></svg></div>
+        <h3>Individueller Druck</h3>
+        <p>Säcke und Beutel mit Ihrem Logo, Ihrer Farbgebung oder betriebsinterner
+           Kennzeichnung — ab definierten Mindestmengen.</p>
+        <div class="tags"><span class="tag">Logo-Druck</span><span class="tag">Wunschfarben</span><span class="tag">ab MOQ</span></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="angebot">
+  <div class="wrap form-grid">
+
+    <aside class="form-aside">
+      <p class="kicker">Angebot anfordern</p>
+      <h2>Sagen Sie uns, was Sie brauchen</h2>
+      <p>Je genauer Ihre Angaben, desto schneller erhalten Sie ein konkretes Angebot —
+         in der Regel innerhalb eines Werktages.</p>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2" stroke-linecap="round"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        <span>info@pro-g.de</span>
+      </div>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2" stroke-linecap="round"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg>
+        <span>+49 (0) 000 000 000</span>
+      </div>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dbb42" stroke-width="2" stroke-linecap="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Musterstraße 1, 00000 Musterstadt</span>
+      </div>
+    </aside>
+
+    <form onsubmit="event.preventDefault();alert('Vorschau — das Formular wird in der finalen Version aktiviert.')">
+      <div class="row two">
+        <div class="field"><label for="firma">Firma *</label><input id="firma" required></div>
+        <div class="field"><label for="name">Ansprechpartner *</label><input id="name" required></div>
+      </div>
+      <div class="row two">
+        <div class="field"><label for="mail">E-Mail *</label><input id="mail" type="email" required></div>
+        <div class="field"><label for="tel">Telefon</label><input id="tel" type="tel"></div>
+      </div>
+      <div class="row three">
+        <div class="field"><label for="material">Material</label>
+          <select id="material">
+            <option>LDPE</option><option>HDPE</option><option>Bio / kompostierbar</option>
+            <option>Beratung erwünscht</option>
+          </select>
+        </div>
+        <div class="field"><label for="staerke">Stärke (µm)</label><input id="staerke" placeholder="z. B. 60"></div>
+        <div class="field"><label for="masse">Maße (B × H cm)</label><input id="masse" placeholder="z. B. 70 × 110"></div>
+      </div>
+      <div class="row two">
+        <div class="field"><label for="menge">Menge</label><input id="menge" placeholder="Stück oder Rollen"></div>
+        <div class="field"><label for="druck">Individueller Druck</label>
+          <select id="druck"><option>nein</option><option>ja</option><option>noch offen</option></select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="nachricht">Nachricht</label><textarea id="nachricht" placeholder="Verwendungszweck, Lieferrhythmus, Besonderheiten …"></textarea></div>
+      </div>
+      <label class="consent">
+        <input type="checkbox" required>
+        <span>Ich habe die <a href="#">Datenschutzerklärung</a> gelesen und stimme zu, dass meine
+        Angaben zur Bearbeitung meiner Anfrage gespeichert und verarbeitet werden. *</span>
+      </label>
+      <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Angebot anfordern</button>
+      <p class="hint">* Pflichtfelder. Ihre Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.</p>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div style="width:130px">
+        <svg viewBox="0 0 340 120" role="img" aria-label="Pro G">
+          <path d="M7.5 69.7 A165 56 0 1 1 333.4 52.2 L325.5 55.5 A157 47 0 1 0 15.3 70.2 Z" fill="#ffffff"/>
+          <path d="M332.5 50.3 A165 56 0 1 1 6.6 67.8 L14.5 64.5 A157 47 0 1 0 324.7 47.0 Z" fill="#7dbb42"/>
+          <text x="52" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="800" font-style="italic" letter-spacing="-1" fill="#ffffff">PRO</text>
+          <text x="238" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="800" font-style="italic" fill="#7dbb42">G</text>
+          <rect x="54" y="90" width="180" height="4" rx="2" fill="#7dbb42"/>
+        </svg>
+      </div>
+      <nav class="foot-links">
+        <a href="#produkte">Produkte</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#angebot">Kontakt</a>
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Pro G — Großhandel für Kunststoffverpackungen</span>
+      <span>LDPE · HDPE · Bio-Beutel · Individueller Druck</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var burger = document.querySelector('.burger'), nav = document.querySelector('.nav');
+  burger.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') { nav.classList.remove('open'); burger.setAttribute('aria-expanded', false); }
+  });
+</script>
+</body>
+</html>
