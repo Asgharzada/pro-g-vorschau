@@ -1,0 +1,4 @@
+# Diese Vorschau soll nicht in Suchmaschinen auftauchen.
+# Die Website steht auf https://zacodantech.de
+User-agent: *
+Disallow: /
